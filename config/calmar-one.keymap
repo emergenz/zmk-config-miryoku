@@ -7,9 +7,9 @@
 
         Colemak {
             bindings = <
-           &lt 5 TAB      &kp Q             &kp W    &kp F        &kp P            &kp B         &kp J  &kp L      &kp U    &kp Y        &kp N0  &kp BACKSPACE
-&mt LEFT_CONTROL F15      &kp A             &kp R    &kp S        &kp T            &kp G         &kp M  &kp N      &kp E    &kp I         &kp O       &kp PIPE
-  &mt LEFT_SHIFT F16    &lt 3 Z           &lt 4 X    &kp C        &kp D            &kp V         &kp K  &kp H  &kp COMMA  &kp DOT  &kp KP_MINUS    &bootloader
+           &lt 5 TAB      &kp Q             &kp W    &kp F        &kp P            &kp B         &kp J  &kp L      &kp U    &kp Y        &kp N0    &kp BACKSPACE
+&mt LEFT_CONTROL F15      &kp A             &kp R    &kp S        &kp T            &kp G         &kp M  &kp N      &kp E    &kp I         &kp O         &kp PIPE
+  &mt LEFT_SHIFT F16    &lt 3 Z           &lt 4 X    &kp C        &kp D            &kp V         &kp K  &kp H  &kp COMMA  &kp DOT  &kp KP_MINUS  &kp RIGHT_SHIFT
  &mt LEFT_ALT DELETE  &kp SPACE  &mt LEFT_GUI ESC  &kp F11  &lt 2 ENTER  &lt 1 BACKSPACE  &mt RALT F22
             >;
         };
@@ -34,10 +34,10 @@
 
         Hyper {
             bindings = <
-    &trans  &kp LS(LA(Q))      &kp LS(LA(W))  &kp LS(LA(F))      &kp LS(LA(P))    &kp LS(LA(B))   &kp LA(LS(J))  &kp LS(LA(L))      &kp LS(LA(U))    &kp LS(LA(Y))  &kp LS(LA(SLASH))  &kp LS(LA(F11))
-     &kp A  &kp LS(LA(A))      &kp LS(LA(R))  &kp LS(LA(S))      &kp LS(LA(T))    &kp LS(LA(G))   &kp LS(LA(M))  &kp LS(LA(N))      &kp LS(LA(E))    &kp LS(LA(I))      &kp LS(LA(O))            &kp A
-     &kp A  &kp LS(LA(Z))      &kp LS(LA(X))  &kp LA(LS(C))      &kp LS(LA(D))    &kp LA(LS(V))   &kp LS(LA(K))  &kp LS(LA(H))  &kp LS(LA(COMMA))  &kp LS(LA(DOT))  &kp LS(LA(MINUS))    &kp LS(LA(A))
-&kp C_NEXT     &kp C_PLAY  &kp K_VOLUME_DOWN          &kp X  &kp C_VOLUME_DOWN  &kp K_VOLUME_UP  &kp C_PREVIOUS
+    &trans  &kp LS(LA(Q))      &kp LS(LA(W))  &kp LS(LA(F))      &kp LS(LA(P))    &kp LS(LA(B))   &kp LA(LS(J))  &kp LS(LA(L))      &kp LS(LA(U))    &kp LS(LA(Y))  &kp LS(LA(SLASH))  &trans
+    &trans  &kp LS(LA(A))      &kp LS(LA(R))  &kp LS(LA(S))      &kp LS(LA(T))    &kp LS(LA(G))   &kp LS(LA(M))  &kp LS(LA(N))      &kp LS(LA(E))    &kp LS(LA(I))      &kp LS(LA(O))  &trans
+    &trans  &kp LS(LA(Z))      &kp LS(LA(X))  &kp LA(LS(C))      &kp LS(LA(D))    &kp LA(LS(V))   &kp LS(LA(K))  &kp LS(LA(H))  &kp LS(LA(COMMA))  &kp LS(LA(DOT))  &kp LS(LA(MINUS))  &trans
+&kp C_NEXT     &kp C_PLAY  &kp K_VOLUME_DOWN         &trans  &kp C_VOLUME_DOWN  &kp K_VOLUME_UP  &kp C_PREVIOUS
             >;
         };
 
@@ -50,11 +50,11 @@
             >;
         };
 
-        F-Keys___Media {
+        FKeys-Media {
             bindings = <
-    &trans      &kp F1      &kp F2  &kp F3  &kp F4             &kp F5           &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
-    &trans      &trans      &trans  &trans  &trans             &trans           &trans  &trans  &trans  &trans   &trans   &trans
-    &trans      &trans      &trans  &trans  &trans             &trans           &trans  &trans  &trans  &trans   &trans   &trans
+    &trans      &kp F1      &kp F2  &kp F3  &kp F4             &kp F5           &kp F6  &kp F7  &kp F8  &kp F9  &kp F10      &kp F11
+    &trans      &trans      &trans  &trans  &trans             &trans           &trans  &trans  &trans  &trans   &trans  &bootloader
+    &trans      &trans      &trans  &trans  &trans             &trans           &trans  &trans  &trans  &trans   &trans       &trans
 &kp C_PREV  &kp C_PLAY  &kp C_NEXT  &trans  &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
             >;
         };
