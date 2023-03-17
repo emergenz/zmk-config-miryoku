@@ -16,9 +16,9 @@
 
         Special-Chars {
             bindings = <
-&trans    &trans  &kp DQT   &kp DLLR  &kp PRCNT     &trans    &trans  &kp LPAR   &kp SEMI  &kp RPAR    &trans  &trans
-&trans  &kp EXCL   &kp AT  &kp POUND    &kp SQT  &kp CARET  &kp AMPS  &kp LBKT  &kp COLON  &kp LGUI  &kp BSLH  &trans
-&trans    &trans   &trans     &trans     &trans     &trans    &trans    &trans     &trans    &trans    &trans  &trans
+&trans    &trans  &kp DQT   &kp DLLR  &kp PRCNT     &trans    &trans  &kp LPAR   &kp SEMI           &kp RPAR    &trans  &trans
+&trans  &kp EXCL   &kp AT  &kp POUND    &kp SQT  &kp CARET  &kp AMPS  &kp LBKT  &kp COLON  &kp RIGHT_BRACKET  &kp BSLH  &trans
+&trans    &trans   &trans     &trans     &trans     &trans    &trans    &trans     &trans             &trans    &trans  &trans
 &trans    &trans   &trans     &trans     &trans     &trans    &trans
             >;
         };
