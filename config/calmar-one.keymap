@@ -28,10 +28,10 @@
 
         Arrows {
             bindings = <
-&trans  &trans     &trans    &trans     &trans       &trans  &trans    &trans    &trans  &trans     &trans  &trans
-&trans  &trans  &kp TILDE  &kp PIPE  &kp GRAVE       &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
-&trans  &trans     &trans    &trans     &trans       &trans  &trans    &trans    &trans  &trans     &trans  &trans
-&trans  &trans     &trans    &trans     &trans  &bootloader  &trans
+&trans  &trans     &trans    &trans     &trans  &trans       &trans    &trans    &trans  &trans     &trans  &trans
+&trans  &trans  &kp TILDE  &kp PIPE  &kp GRAVE  &trans       &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
+&trans  &trans     &trans    &trans     &trans  &trans       &trans    &trans    &trans  &trans     &trans  &trans
+&trans  &trans     &trans    &trans     &trans  &trans  &bootloader
             >;
         };
 
