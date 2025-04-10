@@ -38,7 +38,7 @@
         Hyper {
             bindings = <
 &trans          &kp LS(LA(Q))   &kp LS(LA(W))   &kp LS(LA(F))    &kp LS(LA(P))    &kp LS(LA(B))    &kp LA(LS(J))    &kp LS(LA(L))  &kp LS(LA(U))      &kp LS(LA(Y))    &kp LS(LA(SLASH))  &trans
-&trans          &kp LS(LA(A))   &kp LS(LA(R))   &kp LS(LA(S))    &kp LS(LA(T))    &kp LS(LA(G))    &kp LS(LA(M))    &kp LG(TAB)    &kp LG(LS(TAB))    &kp LS(LA(I))    &kp LS(LA(O))      &trans
+&trans          &kp LS(LA(A))   &kp LS(LA(R))   &kp LS(LA(S))    &kp LS(LA(T))    &kp LS(LA(G))    &kp LS(LA(M))    &kp TAB        &kp LS(TAB)        &kp LS(LA(I))    &kp LS(LA(O))      &trans
 &trans          &kp LS(LA(Z))   &kp LS(LA(X))   &kp LA(LS(C))    &kp LS(LA(D))    &kp LA(LS(V))    &kp LS(LA(K))    &kp LS(LA(H))  &kp LS(LA(COMMA))  &kp LS(LA(DOT))  &kp LS(LA(MINUS))  &trans
 &kp LS(LA(F7))  &kp LS(LA(F8))  &kp LS(LA(F9))  &kp LS(LA(F10))  &kp LS(LA(F11))  &kp LS(LA(F12))  &kp LS(LA(F13))
             >;
