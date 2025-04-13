@@ -41,9 +41,9 @@
 
         Hyper {
             bindings = <
-&trans          &kp LS(LA(Q))   &kp LS(LA(W))  &kp LS(LA(F))    &kp LS(LA(P))  &kp LS(LA(B))  &kp LA(LS(J))    &kp TAB         &kp LS(TAB)   &kp LS(LA(Y))    &kp LS(LA(SLASH))  &trans
+&trans          &kp LS(LA(Q))   &kp LS(LA(W))  &kp LS(LA(F))    &kp LS(LA(P))  &kp LS(LA(B))  &mkp MCLK        &kp TAB         &kp LS(TAB)   &kp LS(LA(Y))    &kp LS(LA(SLASH))  &trans
 &trans          &kp LS(LA(A))   &kp LS(LA(R))  &kp TAB          &kp LS(TAB)    &kp LS(LA(G))  &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp LS(LA(O))      &trans
-&trans          &kp LS(LA(Z))   &kp LS(LA(X))  &kp LA(LS(C))    &kp LS(LA(D))  &kp LA(LS(V))  &mkp MCLK        &msc SCRL_DOWN  &msc SCRL_UP  &kp LS(LA(DOT))  &kp LS(LA(MINUS))  &trans
+&trans          &kp LS(LA(Z))   &kp LS(LA(X))  &kp LA(LS(C))    &kp LS(LA(D))  &kp LA(LS(V))  &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp LS(LA(MINUS))  &trans
 &kp LS(LA(F7))  &kp LS(LA(F8))  &kp LCMD       &kp LS(LA(F10))  &mkp LCLK      &mkp RCLK      &kp LS(LA(F13))
             >;
         };
