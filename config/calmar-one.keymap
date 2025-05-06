@@ -8,6 +8,8 @@
 
 #define CONFIG_WIRELESS 1
 
+&mt { flavor = "tap-preferred"; };
+
 / {
     keymap {
         compatible = "zmk,keymap";
