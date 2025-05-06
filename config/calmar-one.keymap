@@ -8,7 +8,10 @@
 
 #define CONFIG_WIRELESS 1
 
-&mt { flavor = "tap-preferred"; };
+&mt {
+    flavor = "tap-preferred";
+    quick-tap-ms = <150>;
+};
 
 / {
     keymap {
