@@ -1,6 +1,0 @@
-if SHIELD_CALMAR_ONE
-
-config ZMK_KEYBOARD_NAME
-    default "calmar-one"
-    
-endif
